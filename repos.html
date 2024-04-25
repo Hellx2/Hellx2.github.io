@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Repos list" />
+        <meta name="author" content="Hellx2" />
+        <title>Repos List</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <nav>
+            <span id="title">Hellx2</span>
+            <button id="home" onclick="window.open('index.html', '_self')">
+                Home
+            </button>
+            <button id="repos" onclick="window.open('repos.html', '_self')">
+                Repos
+            </button>
+        </nav>
+        <div id="main">
+            <h1>Repos</h1>
+        </div>
+        <div id="main2">
+            <ul id="repos-list">
+                <li>md:Markdown:A markdown interpreter written in Rust.</li>
+                <li>
+                    guessing-game:Guessing Game:A guessing game written in Rust.
+                    Supports setting the upper and lower bound as well as the
+                    try count. Supports CLI arguments.
+                </li>
+                <li>
+                    brainfuck:BrainFuck:A BrainFuck interpreter written in Rust.
+                </li>
+                <li>
+                    shell:Enigma Shell:A basic shell interpreter written in
+                    Rust.
+                </li>
+                <li>
+                    naughts-and-crosses:Naughts and Crosses:Naughts and Crosses,
+                    written in Rust. Not finished.
+                </li>
+                <li>dots:My Dots:My dotfiles for my Sway and NeoVIM setup.</li>
+                <li>
+                    nvim-dots:My NeoVIM Dots:My dotfiles for my NeoVIM setup.
+                </li>
+            </ul>
+        </div>
+        <script src="repos.js"></script>
+    </body>
+</html>
