@@ -57,6 +57,7 @@ nav button {
     padding: 0px 10px;
     background: none;
     transition: background-color 0.3s;
+    font-size: 16px;
 }
 
 nav button:hover {
