@@ -19,11 +19,15 @@ h1 {
 }
 
 #main {
-    margin-top: 4vh;
+    margin-top: 50px;
     color: #000000;
     margin-bottom: 0;
     width: 100%;
     background: #ffaa00;
+}
+
+#main2 {
+    padding: 0px 20px;
 }
 
 #main,
@@ -38,7 +42,7 @@ nav {
     width: 100%;
     background: #303030;
     align-items: center;
-    height: 4vh;
+    height: 50px;
 }
 
 nav button {
@@ -61,24 +65,25 @@ nav button:hover {
 }
 
 #title {
-    margin: 0 2vw;
+    margin: 0 20px;
     font-weight: bold;
     font-style: italic;
-    font-size: 1.2vw;
+    font-size: 20px;
     color: #ffffff;
 }
 
 #repos-list {
     list-style-type: none;
+    padding: 0;
 }
 
 #repos-list li {
     color: white;
     margin: 1vh 1vw;
-    border: 0.3vh #ee990099 solid;
+    border: 2px #ee990099 solid;
     border-radius: 10px;
     background-color: #1c1c1c;
-    padding: 0.4vh 0.4vw;
+    padding: 5px;
     transition: background-color 0.3s;
 }
 
